@@ -28,7 +28,7 @@ class RegistPage extends StatelessWidget {
             const SizedBox(height: 100),
             // Logo
             Image.asset(
-              'lib/images/Logo_app.png',
+              'lib/assets/img/Logo_app.png',
               width: 400,
             ),
 
@@ -84,9 +84,9 @@ class RegistPage extends StatelessWidget {
                   MyButton(onTap: registUser, text_button: "Regist"),
 
                   // not a member? register now
-                  const SizedBox(height: 300),
+                  const SizedBox(height: 200),
                   Text(
-                    'Sudah punya akun?',
+                    'Belum punya akun?',
                     style: TextStyle(
                         color: Colors.grey[700],
                         fontSize: 16,

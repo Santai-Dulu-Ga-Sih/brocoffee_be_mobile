@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:brocoffee_mobile/components/my_button.dart';
 import 'package:brocoffee_mobile/components/my_textfield.dart';
 
-import 'regist_page.dart';
 import 'home_page.dart';
+import 'regist_page.dart';
 
 class LoginPage extends StatelessWidget {
   LoginPage({super.key});
@@ -39,7 +39,7 @@ class LoginPage extends StatelessWidget {
               // logo
               Image.asset(
                 'lib/assets/img/Logo_app.png',
-                // width: 400,
+                width: 400,
               ),
 
               const SizedBox(height: 50),
